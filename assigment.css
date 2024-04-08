@@ -1,0 +1,490 @@
+.nav-assignment ul {
+    display: flex;
+    background-color: #ebe8e5;
+    margin-left: 15px;
+    width: 500%;
+    height: 51px;
+    align-items: center;
+    justify-content: normal;
+    list-style-type: none;
+    padding-left: 24px;
+    border-radius: 100px;
+}
+
+.nav-assignment ul li {
+    padding-right: 20px;
+
+}
+
+.nav-assignment ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    position: relative;
+    font-size: 15px;
+
+}
+
+a:after {
+    content: "";
+    position: absolute;
+    background-color: brown;
+    height: 3px;
+    width: 0px;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+a:hover:after {
+    width: 100%;
+}
+
+.searcha-box {
+    display: flex;
+    align-items: center;
+    background: #d3c8c8;
+    padding: 10px 38px;
+    border-radius: 30px;
+    margin-right: 452px;
+}
+
+/* @media only screen and (min-width:320px) and (max-width:425px) { */
+    .searcha-box {
+        display: flex;
+        align-items: center;
+        background: #d3c8c8;
+        padding: 9px 3px !important;
+        border-radius: 28px !important;
+        margin-right: 463px !important;
+        height: 38px !important;
+        width: 401px !important;
+        margin-left: 9px !important;
+        padding-left: 7px !important;
+    }
+
+    .searcha-box i {
+        padding-left: 173px !important;
+      
+    }
+
+    .nav-assignment ul {
+        display: flex;
+        background-color: #ebe8e5;
+        margin-left: 4px !important;
+        width: 220px !important;
+        height: 30px !important;
+        align-items: center;
+        justify-content: normal;
+        list-style-type: none;
+        padding-left: 14px !important;
+        border-radius: 11px !important;
+    }
+
+    .nav-assignment ul li {
+        padding-right: 8px !important;
+    }
+
+    .nav-assignment ul li a {
+        text-decoration: none;
+        color: black;
+        font-family: sans-serif;
+        position: relative;
+        font-size: 9px !important;
+    }
+
+    .filt h2 {
+        position: absolute !important;
+        font-size: 16px !important;
+        font-family: sans-serif !important;
+        margin-bottom: 27px !important;
+        margin-top: 11px !important;
+        margin-left: -426px !important;
+    }
+
+    .filt i {
+        height: 14px !important;
+        margin-left: -450px !important;
+        margin-top: 9px !important;
+        font-size: 19px !important;
+    }
+
+
+.searcha-box input {
+    padding: 6px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: black;
+    max-width: 200px;
+    font-size: 16px;
+}
+
+.searcha-box input::placeholder {
+    color: #fff;
+}
+
+.searcha-box i {
+    padding-left: 396px;
+}
+
+.searcha-filter {
+    display: flex;
+}
+
+.filt {
+    display: flex;
+}
+
+@media only screen and (min-width:320px) and (max-width:425px) {
+    .page-btn {
+        display: flex;
+        margin-top: 44px !important;
+        margin-left: 70px !important;
+    }
+
+    .page-btn .page {
+        width: 32px !important;
+        height: 27px !important;
+        background: whitesmoke !important;
+        margin-left: 15px !important;
+        padding-left: 9px !important;
+    }
+
+    .filt h2 {
+        position: absolute !important;
+        font-size: 11px !important;
+        font-family: sans-serif !important;
+        margin-bottom: 27px !important;
+        margin-top: 12px !important;
+        margin-left: -431px !important;
+    }
+
+    .filt i {
+        height: 14px !important;
+        margin-left: -450px !important;
+        margin-top: 10px !important;
+        font-size: 15px !important;
+    }
+
+    .assignment .coding {
+        width: 70px !important;
+        height: 24px !important;
+        background: #efedeb !important;
+        margin-left: 14px !important;
+        border-radius: 8px !important;
+        text-align: center !important;
+        margin-top: -3px !important;
+        padding-top: 4px !important;
+    }
+
+    .assignment-name h2 {
+        font-family: sans-serif;
+        font-size: 24px !important;
+        width: 258px!important;
+        font-weight: 700 !important;
+        letter-spacing: .5px !important;
+    }
+
+    .assignment .coding h4 {
+
+        font-size: 13px !important;
+        color: #799bd7;
+        font-family: sans-serif;
+    }
+
+    .short-form {
+        width: 32px!important;
+        background: #9999e7;
+        height: 25px !important;
+        border-radius: 19px !important;
+        padding-left: 6px !important;
+        padding-top: 3px !important;
+    }
+
+    .short-form h6 {
+        color: white;
+        font-size: 15px !important;
+    }
+
+    .author h3 {
+        padding-left: 15px !important;
+        font-size: 16px !important;
+        padding-top: 0px !important;
+        font-family: cursive;
+    }
+
+    .date {
+        display: flex;
+        padding-left: 5px !important;
+        padding-top: 3px !important;
+    }
+
+    .date i {
+        font-size: 24px !important;
+    }
+
+    .date p {
+        padding-left: 14px !important;
+        font-size: 17px !important;
+        width: 182px!important;
+        font-family: cursive;
+    }
+
+    .conclude {
+        display: flex;
+        padding-left: 0px !important;
+        padding-top: 6px !important;
+    }
+
+    .conclude i {
+        font-size: 25px !important;
+        padding-left: 2px!important;
+    }
+
+    .conclude p {
+        padding-left: 20px !important;
+        padding-right: 0px !important;
+        font-size: 17px !important;
+        font-family: cursive;
+    }
+
+    .tag {
+        padding-left: 24px !important;
+        padding-top: 9px !important;
+        padding-right: 25px !important;
+        display: flex;
+    }
+
+    .tag i {
+        font-size: 26px !important;
+    }
+
+    .tag  p{
+        padding-left: 7px !important;
+        font-size: 18px !important;
+        padding-top: 0px !important;
+        
+
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    .nav-assignment ul {
+        display: flex;
+        background-color: #ebe8e5;
+        margin-left: 8px !important;
+        width: 466px !important;
+        height: 56px !important;
+        align-items: center;
+        justify-content: normal;
+        list-style-type: none;
+        padding-left: 36px !important;
+        border-radius: 11px !important;
+    }
+
+    .nav-assignment ul li {
+        padding-right: 21px !important;
+    }
+
+    .nav-assignment ul li a {
+        text-decoration: none;
+        color: black;
+        font-family: sans-serif;
+        position: relative;
+        font-size: 18px !important;
+    }
+
+    .searcha-box {
+        display: flex;
+        align-items: center;
+        background: #d3c8c8;
+        padding: 5px 38px !important;
+        border-radius: 29px !important;
+        margin-right: 444px !important;
+        width: 580px !important;
+    }
+
+    .searcha-box i {
+        padding-left: 316px !important;
+    }
+
+    .filt i {
+        height: 14px !important;
+        margin-left: -437px !important;
+        margin-top: 8px !important;
+        font-size: 23px !important;
+    }
+
+    .filt h2 {
+        position: absolute;
+        font-size: 18px !important;
+        font-family: sans-serif;
+        margin-bottom: 27px !important;
+        margin-top: 10px !important;
+        margin-left: -409px !important;
+    }
+
+    .page-btn .page {
+        width: 36px !important;
+        height: 33px !important;
+        background: whitesmoke;
+        margin-left: 24px !important;
+        padding-left: 12px !important;
+        margin-top: 0px !important;
+        padding-top: 3px !important;
+    }
+
+    .assignment-name h2 {
+        font-family: sans-serif;
+        font-size: 22px !important;
+        font-weight: 700 !important;
+        margin-left: 12px !important;
+        letter-spacing: .5px !important;
+    }
+
+    .assignment .coding {
+        width: 94px !important;
+        height: 32px !important;
+        background: #efedeb;
+        margin-left: 14px !important;
+        border-radius: 8px;
+        text-align: center;
+        margin-top: 0px !important;
+        padding-top: 5px !important;
+    }
+
+}
+
+.filt i {
+    height: 14px;
+    margin-left: -442px;
+    margin-top: 10px;
+    font-size: 25px;
+
+}
+
+.filt h2 {
+    position: absolute;
+    font-size: 17px;
+    font-family: sans-serif;
+    margin-bottom: 27px;
+    margin-top: 15px;
+    margin-left: -413px;
+}
+
+.assignment {
+    display: flex;
+}
+
+.assignment .coding {
+    width: 78px;
+    height: 32px;
+    background: #efedeb;
+    margin-left: 14px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 5px;
+}
+
+.assignment .coding h4 {
+    font-size: 16px;
+    font-size: 16px;
+    color: #799bd7;
+    font-family: sans-serif;
+
+}
+
+.assignment-name h2 {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: .5px;
+}
+
+.assignment {
+    margin-top: 69px;
+    margin-left: 25px;
+}
+
+.detail {
+    display: flex;
+}
+
+.tag {
+    padding-left: 15px;
+    padding-top: 10px;
+    display: flex;
+}
+
+.tag .p {
+    padding-left: 7px;
+}
+
+.conclude p {
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: cursive;
+}
+
+.conclude {
+    display: flex;
+    padding-left: 15px;
+    padding-top: 7px;
+}
+
+.date p {
+    padding-left: 8px;
+    font-size: 13px;
+    font-family: cursive;
+}
+
+.date {
+    display: flex;
+    padding-left: 16px;
+    padding-top: 9px;
+}
+
+.author h3 {
+    padding-left: 9px;
+    font-size: 16px;
+    padding-top: 6px;
+    font-family: cursive;
+}
+
+.short-form {
+    width: 30px;
+    background: #9999e7;
+    ;
+    height: 29px;
+    border-radius: 16px;
+    padding-left: 6px;
+    padding-top: 4px;
+}
+
+.short-form h6 {
+    color: white;
+
+}
+
+.horizontal-line {
+    width: 1200px;
+    height: 1px;
+    background-color: silver;
+}
+
+.page {
+    width: 32px;
+    height: 28px;
+    background: whitesmoke;
+    margin-left: 18px;
+    padding-left: 10px;
+}
+
+.page-btn {
+    display: flex;
+    margin-top: 55px;
+    margin-left: 207px;
+
+}
